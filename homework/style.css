@@ -1,0 +1,41 @@
+.shampoo {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+
+            /* display flex를 쓸 때엔 아래 네 줄이 항상 묶여 다닙니다. */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nanum Myeongjo', serif;
+  }
+        
+        /* 자식선택자: mytitle 바로 아래 있는 h1 태그 */
+  .qldlfk > h1 {
+    margin: auto;
+    font-style: 'Nanum Myeongjo';
+  }
+        
+        /* 자식선택자: mytitle 바로 아래 있는 h5 태그 */
+  .mytitle > h5 {
+    margin: 5px 0 0 0;
+  }
+
+  .jumbotron {
+      width: 1000px;
+      height: 400px;
+      margin: auto;
+      margin-bottom : 50px;
+  }
+
+  .card-group {
+      width: 300px;
+      height: 300px;
+      margin: auto;
+      margin-top: 100px;
+
+  }
